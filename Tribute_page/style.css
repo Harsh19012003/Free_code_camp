@@ -1,0 +1,27 @@
+#main {
+  background: lightgray;
+}
+
+#image {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#tribute-info {
+  margin: 0px 25%
+}
+
+ul {
+  margin: 0px 10%
+}
+
+a {
+  text-decoration: none;
+}
+
+#img-div {
+  margin: 25px;
+  background: white;
+}

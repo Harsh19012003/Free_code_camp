@@ -1,0 +1,174 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbar {
+  width: 100%;
+  position: fixed;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-end;
+  background: #ed2009;
+  padding: 1rem 0.7rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 0.7rem;
+  font-size: 1.4em;
+  color: white;
+  font-family: sans-serif;
+}
+
+.nav-link:hover {
+  background: #071136;
+  border-radius: 7px;
+}
+
+#welcome-section {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(50deg,
+    #404040,
+    #0f0f0f);
+}
+
+#main-intro {
+  color: #c9fffb;
+  font-size: 6.8vw;
+  text-align: center;
+  padding-top: 25vh;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+#description-intro {
+  color: #ab1916;
+  text-align: center;
+  font-style: italic;
+  font-size: 3vw;
+  font-family: sans-serif;
+}
+
+#projects {
+  background: linear-gradient(#006894, #0c3e54);
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 10px;
+}
+
+.pro-items {
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px 2px black;
+  margin: 10px;
+  height: auto;
+  padding: 8px;
+}
+
+.pro-items:hover {
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px 2px black;
+  margin: 15px;
+  height: auto;
+  padding: 15px;
+}
+
+
+.pro-img {
+  width: 350px;
+  height: 350px;
+}
+
+.project-label {
+  font-family: sans-serif;
+  padding: 10px;
+  font-size: 1.5rem;
+  background: #093245;
+  text-align: center;
+  color: white;
+}
+
+#p-l {
+  background: #0c3e54;
+  text-align: center;
+  padding: 5px;
+}
+
+#profile-link {
+  
+  font-family: sans-serif;
+  color: white;
+  text-transform: uppercase;
+  background: black;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+#profile-link:hover {
+  border-radius: 5px;
+  background: red;
+  padding: 15px 30px;
+}
+
+
+#contact {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(40deg, #9c392a, #540b00);
+}
+
+#main-contact {
+  color: #c9fffb;
+  font-size: 6.8vw;
+  text-align: center;
+  padding-top: 25vh;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+#description-contact {
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-size: 3vw;
+  font-family: sans-serif;
+}
+
+@media (max-width: 500px) {
+  #navbar {
+    line-height: 40px;
+    text-transform: uppercase;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ed2009; 
+    padding: 1px 3.3vw:
+}
+  
+  #main-intro {
+  font-size: 9vw;
+  padding-top: 40vh;
+}
+
+#description-intro {
+  font-size: 6vw;
+}
+  .pro-img {
+  width: 90vw;
+  height: 90vw;
+}
+
+  #main-contact {
+    font-size: 9vw;
+  }
+  
+  #description-contact {
+    font-size: 6vw;
+}
+}

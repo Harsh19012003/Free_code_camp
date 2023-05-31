@@ -1,0 +1,64 @@
+#main-doc {
+  display: absolute;
+  margin-left: 250px;
+}
+
+
+.main-section {
+  font-size: 14px;
+}
+
+header {
+  font-size: 27px;
+  margin: 70px 20px 0px;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  max-width: 250px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+
+#nav-header {
+  background: transparent;
+  margin: 0px;
+  
+}
+
+.nav-link {
+  display: block;
+  margin: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: gray;
+  
+}
+
+@media (max-width: 700px) {
+  #navbar {
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+    position: fixed;
+    left: 25%;
+    right: 25%;
+    max-width: 90%;
+  }
+}

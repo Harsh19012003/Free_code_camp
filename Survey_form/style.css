@@ -1,0 +1,44 @@
+body {
+  color: white;
+  background: linear-gradient(#052d5e, #03f8fc, #052d5e);
+}
+#title {
+  text-align: center;
+}
+
+#description {
+  font-style: italic;
+  text-align: center;
+}
+
+#survey-form {
+  padding: 4%;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0px 15%;
+  background: #43167a;
+  opacity: 0.7;
+}
+
+#dropdown {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%
+}
+
+button {
+  background-color: green;
+  color: white;
+  width: 100%;
+  border: 5px solid green;
+  border-radius: 5px;
+  margin: 2em 0px 0px;
+  
+}
+
+#name-label, #email-label, #number-label {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+}
